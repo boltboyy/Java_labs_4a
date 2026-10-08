@@ -1,0 +1,121 @@
+[ {
+  "number" : "0002",
+  "surname" : "Иванов",
+  "name" : "Иван",
+  "group" : "05a",
+  "faculty" : "ФПМИ",
+  "sessions" : [ {
+    "number" : 1,
+    "course" : 1,
+    "exams" : [ {
+      "subject" : "Математика",
+      "mark" : 8
+    }, {
+      "subject" : "Физика",
+      "mark" : 7
+    }, {
+      "subject" : "Химия",
+      "mark" : 8
+    } ],
+    "credits" : [ {
+      "subject" : "Физкультура",
+      "passed" : true
+    } ],
+    "averageMark" : 7.666666666666667
+  }, {
+    "number" : 2,
+    "course" : 1,
+    "exams" : [ {
+      "subject" : "Математика",
+      "mark" : 10
+    }, {
+      "subject" : "Информатика",
+      "mark" : 5
+    } ],
+    "credits" : [ {
+      "subject" : "Физкультура",
+      "passed" : true
+    } ],
+    "averageMark" : 7.5
+  } ]
+}, {
+  "number" : "0003",
+  "surname" : "Сидоров",
+  "name" : "Семен",
+  "patronymic" : "Семенович",
+  "group" : "05б",
+  "faculty" : "ФПМИ",
+  "sessions" : [ {
+    "number" : 11,
+    "course" : 1,
+    "exams" : [ {
+      "subject" : "Математика",
+      "mark" : 6
+    }, {
+      "subject" : "Физика",
+      "mark" : 7
+    } ],
+    "credits" : [ {
+      "subject" : "Физкультура",
+      "passed" : true
+    } ],
+    "averageMark" : 6.5
+  }, {
+    "number" : 2,
+    "course" : 1,
+    "exams" : [ {
+      "subject" : "Математика",
+      "mark" : 13
+    }, {
+      "subject" : "Информатика",
+      "mark" : 5
+    } ],
+    "credits" : [ {
+      "subject" : "Физкультура",
+      "passed" : false
+    } ],
+    "averageMark" : 4.0
+  } ]
+}, {
+  "number" : "0001",
+  "surname" : "Петров",
+  "name" : "Петр",
+  "patronymic" : "Петрович",
+  "group" : "05a",
+  "faculty" : "ФПМИ",
+  "teacher": "Пушкин",
+  "sessions" : [ {
+    "number" : 1,
+    "course" : 1,
+    "exams" : [ {
+      "subject" : "Математика",
+      "mark" : 9
+    }, {
+      "subject" : "Физика",
+      "mark" : 9
+    }, {
+      "subject" : "Химия",
+      "mark" : 9
+    } ],
+    "credits" : [ {
+      "subject" : "Физкультура",
+      "passed" : true
+    } ],
+    "averageMark" : 9.0
+  }, {
+    "number" : 2,
+    "course" : 1,
+    "exams" : [ {
+      "subject" : "Математика",
+      "mark" : 10
+    }, {
+      "subject" : "Информатика",
+      "mark" : 9
+    } ],
+    "credits" : [ {
+      "subject" : "Физкультура",
+      "passed" : "зачтено"
+    } ],
+    "averageMark" : 9.5
+  } ]
+} ]
